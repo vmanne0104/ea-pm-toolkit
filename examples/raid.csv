@@ -1,0 +1,5 @@
+id,type,description,owner,probability,impact,mitigation
+R1,Risk,Legacy data migration exceeds cutover window,Migration Lead,4,5,Rehearse cutover twice; define rollback plan
+R2,Risk,Key SME unavailable during UAT,PM,3,3,Cross-train backup SME
+I1,Issue,Test environment unstable,DevOps Lead,,,Stabilize via IaC rebuild
+D1,Dependency,Identity provider onboarding by Security team,Security Architect,,,Weekly sync with Security PMO

@@ -1,0 +1,7 @@
+[project]
+name = "ea-pm-toolkit"
+version = "0.1.0"
+description = "Enterprise Architecture + PMO toolkit: ADRs, RAID logs, Earned Value, Mermaid roadmaps"
+requires-python = ">=3.10"
+[project.scripts]
+eapm = "eapm.cli:main"

@@ -1,0 +1,6 @@
+{"title": "Legacy Decommission Roadmap",
+ "phases": [
+  {"name": "Assess", "tasks": [{"id": "a1", "name": "Dependency analysis", "start": "2026-01-05", "duration": "30d", "status": "done"}]},
+  {"name": "Migrate", "tasks": [{"id": "m1", "name": "Wave 1 cutover", "start": "2026-02-10", "duration": "45d", "status": "active"},
+                                {"id": "m2", "name": "Wave 2 cutover", "start": "2026-04-01", "duration": "45d"}]},
+  {"name": "Retire", "tasks": [{"id": "r1", "name": "Archive data and decommission", "start": "2026-05-20", "duration": "30d"}]}]}
